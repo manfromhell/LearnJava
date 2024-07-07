@@ -1,12 +1,11 @@
 package basics.math;
 
 import java.util.Scanner;
-import java.lang.Math;
 
 /**
  * Simple math operations
  */
-public class Task1 {
+public class MathTask1 {
 
     /**
      * @return Сума двох чисел.
@@ -58,7 +57,7 @@ public class Task1 {
     }
 
     public static void main(String[] args) {
-        Task1 task = new Task1();
+        MathTask1 task = new MathTask1();
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the first number: ");
@@ -66,9 +65,9 @@ public class Task1 {
         System.out.println("Enter the second number: ");
         int num2 = scanner.nextInt();
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + task.sum(num1, num2));
-        System.out.println("The subtraction of " + num1 + " and " + num2 + " is: " + task.subtract(num1, num2));
-        System.out.println("The multiplication of " + num1 + " and " + num2 + " is: " + task.multiply(num1, num2));
-        System.out.println("The division of " + num1 + " and " + num2 + " is: " + task.divide(num1, num2));
+//        System.out.println("The subtraction of " + num1 + " and " + num2 + " is: " + task.subtract(num1, num2));
+//        System.out.println("The multiplication of " + num1 + " and " + num2 + " is: " + task.multiply(num1, num2));
+//        System.out.println("The division of " + num1 + " and " + num2 + " is: " + task.divide(num1, num2));
     }
 
 }

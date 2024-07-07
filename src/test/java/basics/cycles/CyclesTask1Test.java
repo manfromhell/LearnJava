@@ -2,11 +2,9 @@ package basics.cycles;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+class CyclesTask1Test {
 
-class Task1Test {
-
-    Task1 task1 = new Task1();
+    CyclesTask1 task1 = new CyclesTask1();
 
     @Test
     void printAllNumbers() {

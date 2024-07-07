@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Task1Test {
+class MathTask1Test {
 
-    Task1 task = new Task1();
+    MathTask1 task = new MathTask1();
 
     @Test
     void sum() {

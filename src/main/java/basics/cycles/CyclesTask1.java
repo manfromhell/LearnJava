@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Simple cycle operations
  */
-public class Task1 {
+public class CyclesTask1 {
     private final Scanner scanner = new Scanner(System.in);
 
     /**
