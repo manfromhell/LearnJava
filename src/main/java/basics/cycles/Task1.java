@@ -18,6 +18,13 @@ public class Task1 {
     }
 
     /**
+     * Надрукувати числа від N до 1.
+     */
+    public void printAllNumbersReversed (int n) {
+
+    }
+
+    /**
      * Надрукувати числа від A до B
      */
     public void printAllNumbersInBetween (int a, int b) {
@@ -28,6 +35,13 @@ public class Task1 {
      * Надрукувати всі непарні числа між A та B
      */
     public void printAllOddNumbersInBetween (int a, int b) {
+
+    }
+
+    /**
+     * Надрукувати всі непарні числа між A та B в зворотньому порядку.
+     */
+    public void printAllOddNumbersInBetweenReversed (int a, int b) {
 
     }
 

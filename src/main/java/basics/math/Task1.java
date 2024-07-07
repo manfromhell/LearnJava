@@ -44,6 +44,13 @@ public class Task1 {
     }
 
     /**
+     * @return куб числа.
+     */
+    public int sqr3(int a) {
+        return -1; // TODO
+    }
+
+    /**
      * @return число a в степені b.
      */
     public int sqrN(int a, int b) {

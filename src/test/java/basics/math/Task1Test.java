@@ -37,4 +37,16 @@ class Task1Test {
         assertEquals(16, task.sqr(4));
         assertEquals(4, task.sqr(-2));
     }
+
+    @Test
+    void sqr3() {
+        assertEquals(16, task.sqr3(4));
+        assertEquals(4, task.sqr3(-2));
+    }
+
+    @Test
+    void sqrN() {
+        assertEquals(32, task.sqrN(2, 5));
+        assertEquals(-32, task.sqrN(-2, 5));
+    }
 }
